@@ -4,6 +4,14 @@
 <head>
     <title>Dhanvee Ivaturi</title>
 
+    <!-- META TAGS -->
+    <meta name="description"
+        content="Hey! I'm Dhanvee Ivaturi, a CS major at the University of Maryland, College Park. I'm passionate about AI, ML, IoT, and more." />
+    <meta name="keywords"
+        content="Dhanvee, Ivaturi, Dhanvee Ivaturi, Machine Learning, UMD, ISEF, Synopsys, AI, Artificial Intelligence" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
@@ -24,11 +32,17 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="./css/album.css" rel="stylesheet">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="./js/bootstrap.js"></script>
 
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#000000">
@@ -39,18 +53,20 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 
-<body style="background-image: linear-gradient( 180deg, #ECE9E6 30%, #FFFFFF 100%);">
+<body
+    style="background-image: linear-gradient( 180deg, #ECE9E6 30%, #FFFFFF 100%); background-size: auto 100%; background-repeat: no-repeat; ">
 
-    <nav class="navbar shadow navbar-expand-lg navbar-dark bg-dark p-2" style="background-image: linear-gradient( 135deg, #FFAA85 10%, #B3315F 100%);">
+    <nav class="navbar shadow navbar-expand-lg navbar-dark bg-dark p-2 mb-4"
+        style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">Dhanvee Ivaturi</a>
+            <a class="navbar-brand pl-2" href="./index.html">Dhanvee Ivaturi</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse px-4" id="navbarColor02">
+                <ul class="navbar-nav ml-auto p-1">
                     <li class="nav-item">
                         <a class="nav-link" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
                     </li>
@@ -80,64 +96,58 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row mt-4 pt-4" style="text-align: center;">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 p-0">
+        <div class="row pt-md-4" style="text-align: center;">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
                 <div class="card shadow-lg mb-4 mx-auto ">
-                    <div class="row no-gutters">
-                        <div class="col-lg-4">
-                            <img src="./DhanveeFace.jpg" class="card-img">
+                    <div class="row no-gutters" style="text-align:center">
+                        <div class="col-md-4">
+                            <div class="embed-responsive ">
+                            <img src="./assets/DhanveeFace.jpg" class="card-img">
+                            </div>
                         </div>
-                        <div class="col-md-8 my-auto">
+                        <div class="col-md-8" style="margin:auto">
                             <div class="card-body">
-                                <h1 class="mb-4"><b>Dhanvee</b> <a class=""  style="color:#B3315F">Ivaturi</a></h1>
-                                <p class="card-text" style="color:black; font-size: 1rem">I'm a 1st year Computer Science student at the <br><a href="https://www.cs.umd.edu">University of Maryland, College Park.</a></p>
+                                <h1 class="mb-4"><b>Dhanvee</b> <a class="" style="color:#B3315F">Ivaturi</a></h1>
+                                <p class="card-text" style="color:black; font-size: 1rem">I'm a 1st year Computer
+                                    Science student at the <br><a href="https://www.cs.umd.edu">University of Maryland,
+                                        College Park.</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="card shadow-lg mb-3 mt-4">
-                    <h3 class="card-header" style="background-image: linear-gradient( 135deg, #FFAA85 10%, #B3315F 100%); color: white">About Me</h3>
+                    <h3 class="card-header" style="background-image: linear-gradient( 135deg, #FFAA85 10%, #B3315F 100%); color: white">
+                        About Me</h3>
                     <div class="card-body">
                         <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                            I've just started working on my Bachelor's degree in Computer Science at UMD. I've been experimenting with <b style="color: black; font-weight:800">machine learning, data analytics, </b>and <b style="font-weight:800">backend web development</b>.
-                        </p><p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                            Before moving to Maryland for college, I lived in San Jose, California. I attended Silver Creek High School and helped organize the school's <b style="color: black; font-weight:800">MESA</b> and <b style="color: black; font-weight:800">Science Olympiad</b> clubs.
-                        </p><p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                            If I'm not on my Thinkpad finishing my CS homework or working on personal projects, I'll probably be playing badminton, spending time with friends, or playing on my Switch!
-                        <br><br>
+                            I've just started working on my Bachelor's degree in Computer Science at UMD. I've been
+                            experimenting with <b style="color: black; font-weight:800">machine learning, data
+                                analytics, </b>and <b style="font-weight:800">backend web development</b>.
+                        </p>
+                        <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                            At the University of Maryland, I help organize <a target="_blank" href="https://bit.camp" style="color: #FF6F3F; font-weight:800">Bitcamp</a>, the largest spring hackathon on the east coast.
+                            I'm also a part of the <a target="_blank" href="https://fire.umd.edu/streams-COML.html" style="color:#e03a3e; font-weight:800">FIRE Capital One Machine Learning</a> research program and <a target="_blank" href="https://startupshell.org/" style="color: #D74034; font-weight:800">Startup Shell</a>, where I'm working on exciting new projects!
+                        </p>
+                        <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                            Before moving to Maryland for college, I lived in San Jose, California. I attended Silver
+                            Creek High School and helped organize the school's <b
+                                style="color: red; font-weight:800">MESA</b> and <b
+                                style="color: #002ba0; font-weight:800">Science Olympiad</b> clubs.
+                        </p>
+                        <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                            If I'm not on my Thinkpad finishing my CS homework or working on personal projects, I'll
+                            probably be playing badminton, spending time with friends, or playing on my Switch!
+                            <br><br>
                             I'm always looking for new opportunities and friends, so feel free to get in touch with me!
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-lg-3"></div>
         </div>
     </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/holder.min.js"></script>
-
-
-    <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none"
-        style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
-        <defs>
-            <style type="text/css"></style>
-        </defs><text x="0" y="17"
-            style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" width="379" height="225" viewBox="0 0 379 225"
-        preserveAspectRatio="none"
-        style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
-        <defs>
-            <style type="text/css"></style>
-        </defs><text x="0" y="19"
-            style="font-weight:bold;font-size:19pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text>
-    </svg>
 </body>
 
 </html>
