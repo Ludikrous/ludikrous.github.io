@@ -53,6 +53,17 @@
     color: black;
   }
 
+/* xkcdOffline */
+.btn-xkcd {
+  border-color: #2c3e50;
+  color: #2c3e50;
+}
+
+.btn-xkcd:hover {
+  background-color: #bdc3c7;
+  color: black;
+}
+
 /* poiler */
 .btn-poiler {
     border-color: #28C76F;
