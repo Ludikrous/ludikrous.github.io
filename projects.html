@@ -5,25 +5,29 @@
     <title>Dhanvee Ivaturi</title>
 
     <!-- META TAGS -->
-    <meta name="description"
-        content="Hey! I'm Dhanvee Ivaturi, a CS major at the University of Maryland, College Park. I'm passionate about AI, ML, IoT, and more." />
-    <meta name="keywords"
-        content="Dhanvee, Ivaturi, Dhanvee Ivaturi, Machine Learning, UMD, ISEF, Synopsys, AI, Artificial Intelligence" />
+    <meta name="description" content="Hey! I'm Dhanvee Ivaturi, a CS major at the University of Maryland, College Park. I'm passionate about AI, ML, IoT, and more." />
+    <meta name="keywords" content="Dhanvee, Ivaturi, Dhanvee Ivaturi, Machine Learning, UMD, ISEF, Synopsys, AI, Artificial Intelligence" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Clicky Analytics -->
-    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101191612);</script>
+    <script>
+        var clicky_site_ids = clicky_site_ids || [];
+        clicky_site_ids.push(101191612);
+    </script>
     <script async src="//static.getclicky.com/js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131285037-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-131285037-2');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131285037-2');
     </script>
 
     <!-- Favicons -->
@@ -46,12 +50,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap core CSS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -67,15 +67,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 
-<body
-    style="background-image: linear-gradient( 180deg, #ECE9E6 40%, #FFFFFF 100%); background-size: auto 100%; background-repeat: no-repeat; ">
+<body style="background-image: linear-gradient( 180deg, #ECE9E6 40%, #FFFFFF 100%); background-size: auto 100%; background-repeat: no-repeat; ">
 
-    <nav class="navbar shadow navbar-expand-lg navbar-dark bg-dark p-2 mb-4"
-        style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );">
+    <nav class="navbar shadow navbar-expand-lg navbar-dark bg-dark p-2 mb-4" style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );">
         <div class="container">
             <a class="navbar-brand pl-2" href="./index.html">Dhanvee Ivaturi</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -115,8 +112,7 @@
             <div class="col-lg-6">
 
                 <div class="card shadow-lg mb-4 mx-auto">
-                    <h3 class="card-header pl-4"
-                        style="background-image: linear-gradient( 135deg, #0E197D 35%, #FFDB01 100%); color: white">
+                    <h3 class="card-header pl-4" style="background-image: linear-gradient( 135deg, #0E197D 35%, #FFDB01 100%); color: white">
                         Moody
                     </h3>
                     <div class="row no-gutters">
@@ -136,12 +132,9 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FFDB01; color: black">Flask</span>
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FFDB01; color: black">Cloud</span>
                                 </div>
-                                <p class="card-text"
-                                    style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    Moody is a flask application with the goal to help people of all ages with mental
-                                    health issues. It uses a custom deep convolutional neural network for facial and
-                                    mood recognition to determine a user's current mood. Moody then logs and tracks the
-                                    user's mood over time so they can improve their mental health!
+                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                                    Moody is a flask application with the goal to help people of all ages with mental health issues. It uses a custom deep convolutional neural network for facial and mood recognition to determine a user's current mood. Moody then logs and tracks the user's
+                                    mood over time so they can improve their mental health!
                                 </p>
                                 <div style="text-align:right">
                                     <a target="_blank" href="https://github.com/project-d3/Moody"><button type="button" class="btn btn-outline-primary btn-moody">Github</button></a>
@@ -155,8 +148,7 @@
                 <br>
 
                 <div class="card shadow-lg mb-4 mx-auto">
-                    <h3 class="card-header pl-4"
-                        style="background-image: linear-gradient( 135deg, #513162 25%, #FF7AF5 100%); color: white">
+                    <h3 class="card-header pl-4" style="background-image: linear-gradient( 135deg, #513162 25%, #FF7AF5 100%); color: white">
                         Improving Breast Cancer Diagnosis
                     </h3>
                     <div class="row no-gutters">
@@ -174,19 +166,14 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FF7AF5; color: black">Scikit-Learn</span>
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FF7AF5; color: black">Jupyter Notebooks</span>
                                 </div>
-                                <p class="card-text"
-                                    style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    Breast cancer diagnosis is a long and expensive process that isn't available anywhere.
-                                    In my senior year of high school, my friend and I explored the use cases of machine 
-                                    learning algorithms in breast cancer diagnosis. We evaluated K-NNs, Logistic Regressors, SVMs,
-                                    and neural networks, long with principal component analysis to find the model that would most
-                                    accurately predict if someone has a malignant tumor. In the end, we trained a model to be ~98% accurate.
-                                    <br>
-                                    This project won the Synopsys Silicon Valley Science Fair and attended the Intel International Science and Engineering Fair in 2018.
-                                <div style="text-align:right">
-                                    <a target="_blank" href="https://drive.google.com/file/d/1y3Z6e-X_yG3mYOXzbdsXsNIlwnJMFIu5/view?usp=sharing"><button type="button" class="btn btn-outline-primary btn-isef">Poster</button></a>
-                                    <a target="_blank" href="https://drive.google.com/file/d/1lFUJJcWRk7VGvQiCxOvBp3zQnr13-dNr/view?usp=sharing"><button type="button" class="btn btn-outline-primary btn-isef">Paper</button></a>
-                                </div>
+                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                                    Breast cancer diagnosis is a long and expensive process that isn't available anywhere. In my senior year of high school, my friend and I explored the use cases of machine learning algorithms in breast cancer diagnosis. We evaluated K-NNs, Logistic Regressors,
+                                    SVMs, and neural networks, long with principal component analysis to find the model that would most accurately predict if someone has a malignant tumor. In the end, we trained a model to be ~98% accurate.
+                                    <br> This project won the Synopsys Silicon Valley Science Fair and attended the Intel International Science and Engineering Fair in 2018.
+                                    <div style="text-align:right">
+                                        <a target="_blank" href="https://drive.google.com/file/d/1y3Z6e-X_yG3mYOXzbdsXsNIlwnJMFIu5/view?usp=sharing"><button type="button" class="btn btn-outline-primary btn-isef">Poster</button></a>
+                                        <a target="_blank" href="https://drive.google.com/file/d/1lFUJJcWRk7VGvQiCxOvBp3zQnr13-dNr/view?usp=sharing"><button type="button" class="btn btn-outline-primary btn-isef">Paper</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -204,17 +191,15 @@
                         </div>
                         <div class="col-md-8 ">
                             <div class="card-body my-auto">
-                                    <div class="mb-2">
-                                            <span class="badge badge-dark mb-1 p-2 px-3" style="background:#2c3e50">Golang</span>
-                                            <span class="badge badge-dark mb-1 p-2 px-3" style="background:#2c3e50">PDFs</span>
-                                    </div>
-                                    <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                        XKCD is one of my favorite comics, and it's really easy to binge read it!
-                                        xkcdOffline lets you download all of the XKCD comics and compile them into
-                                        an elegant PDF. Great for long airplane rides!
-                                <div style="text-align:right">
-                                    <a target="_blank" href="https://github.com/Ludikrous/xkcdOffline"><button type="button" class="btn btn-outline-primary btn-xkcd">Github</button></a>
+                                <div class="mb-2">
+                                    <span class="badge badge-dark mb-1 p-2 px-3" style="background:#2c3e50">Golang</span>
+                                    <span class="badge badge-dark mb-1 p-2 px-3" style="background:#2c3e50">PDFs</span>
                                 </div>
+                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                                    XKCD is one of my favorite comics, and it's really easy to binge read it! xkcdOffline lets you download all of the XKCD comics and compile them into an elegant PDF. Great for long airplane rides!
+                                    <div style="text-align:right">
+                                        <a target="_blank" href="https://github.com/Ludikrous/xkcdOffline"><button type="button" class="btn btn-outline-primary btn-xkcd">Github</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -232,18 +217,16 @@
                         </div>
                         <div class="col-md-8 ">
                             <div class="card-body my-auto">
-                                    <div class="mb-2">
-                                            <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Python</span>
-                                            <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Reqeusts</span>
-                                            <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Pushshift</span>
-                                    </div>
-                                    <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                        Ever wish you could get all the reddit posts on a subreddit within a certain timeframe?
-                                        So have I! This python script uses pushshift.io's reddit API to archive subreddits.
-                                        Feel free to download it on GitHub and use it for your projects!
-                                <div style="text-align:right">
-                                    <a target="_blank" href="https://github.com/Ludikrous/RedditArchiver"><button type="button" class="btn btn-outline-primary btn-reddit">Github</button></a>
+                                <div class="mb-2">
+                                    <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Python</span>
+                                    <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Reqeusts</span>
+                                    <span class="badge badge-dark mb-1 p-2 px-3" style="background:#C02425">Pushshift</span>
                                 </div>
+                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                                    Ever wish you could get all the reddit posts on a subreddit within a certain timeframe? So have I! This python script uses pushshift.io's reddit API to archive subreddits. Feel free to download it on GitHub and use it for your projects!
+                                    <div style="text-align:right">
+                                        <a target="_blank" href="https://github.com/Ludikrous/RedditArchiver"><button type="button" class="btn btn-outline-primary btn-reddit">Github</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -265,12 +248,11 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#28C76F">Python</span>
                                 </div>
                                 <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    This python script takes in differential equations and works out Euler's method on them.
-                                    It produces not only a table of values (like most other calculators) but also shows its
-                                    work and outputs the equations used at each step. This should be converted to a Flask app soon.
-                                <div style="text-align:right">
-                                    <a target="_blank" href="https://github.com/Ludikrous/Poiler"><button type="button" class="btn btn-outline-primary btn-poiler">Github</button></a>
-                                </div>
+                                    This python script takes in differential equations and works out Euler's method on them. It produces not only a table of values (like most other calculators) but also shows its work and outputs the equations used at each step. This should be converted
+                                    to a Flask app soon.
+                                    <div style="text-align:right">
+                                        <a target="_blank" href="https://github.com/Ludikrous/Poiler"><button type="button" class="btn btn-outline-primary btn-poiler">Github</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -295,14 +277,11 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#92FFC0; color: black">Flask</span>
                                 </div>
                                 <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    One rainy winter night, I got locked out of my house. Thanks to this,
-                                     I got <i>really</i> sick. I decided to prevent this from ever happening again 
-                                    by making a WiFi connected garage door opener, so that anyone with a web browser could 
-                                    open my garage door. I accounted for security, usability, and convenience in my product.
-                                    I never carried my keys with me again!
-                                <div style="text-align:right">
-                                    <a target="_blank" href=""><button type="button" class="btn btn-outline-primary btn-garage" disabled>Offline</button></a>
-                                </div>
+                                    One rainy winter night, I got locked out of my house. Thanks to this, I got <i>really</i> sick. I decided to prevent this from ever happening again by making a WiFi connected garage door opener, so that anyone with
+                                    a web browser could open my garage door. I accounted for security, usability, and convenience in my product. I never carried my keys with me again!
+                                    <div style="text-align:right">
+                                        <a target="_blank" href=""><button type="button" class="btn btn-outline-primary btn-garage" disabled>Offline</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -330,13 +309,11 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#F05F57">Keras</span>
                                 </div>
                                 <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    Back home in California, wildfires are a scarily common occurrance. To help mitigate this issue, 
-                                    I trained a neural network to predict how large a wildfire would grow based on the weather conditions 
-                                    of when the fire started. To do this, I data mined an API that provided historical weather data and 
-                                    matched it with a large wildfire dataset.
-                                <div style="text-align:right">
-                                    <a target="_blank" href=""><button type="button" class="btn btn-outline-primary btn-incendium" disabled>Offline</button></a>
-                                </div>
+                                    Back home in California, wildfires are a scarily common occurrance. To help mitigate this issue, I trained a neural network to predict how large a wildfire would grow based on the weather conditions of when the fire started. To do this, I data mined an
+                                    API that provided historical weather data and matched it with a large wildfire dataset.
+                                    <div style="text-align:right">
+                                        <a target="_blank" href=""><button type="button" class="btn btn-outline-primary btn-incendium" disabled>Offline</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -358,16 +335,12 @@
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FFF720; color: black">Python</span>
                                     <span class="badge badge-dark mb-1 p-2 px-3" style="background:#FFF720; color: black">JavaScript</span>
                                 </div>
-                                <p class="card-text"
-                                    style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    This is a computerized version of a word game that I used to play with my family on long road trips.
-                                    the objective of the game is to guess the CPU's 4-letter word in as few tries as possible. If you
-                                    get a cow, that means that one of the letters in your guess is in the CPU's word. If you get a bull,
-                                    that means that one of the letters in your guess is in the CPU's word, and has the same position.
-                                    Download the game from GitHub and see how good you are!
-                                <div style="text-align:right">
-                                    <a target="_blank" href="https://github.com/Ludikrous/CowBull-pyth"><button type="button" class="btn btn-outline-primary btn-cnb">Github</button></a>
-                                </div>
+                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
+                                    This is a computerized version of a word game that I used to play with my family on long road trips. the objective of the game is to guess the CPU's 4-letter word in as few tries as possible. If you get a cow, that means that one of the letters in your
+                                    guess is in the CPU's word. If you get a bull, that means that one of the letters in your guess is in the CPU's word, and has the same position. Download the game from GitHub and see how good you are!
+                                    <div style="text-align:right">
+                                        <a target="_blank" href="https://github.com/Ludikrous/CowBull-pyth"><button type="button" class="btn btn-outline-primary btn-cnb">Github</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
