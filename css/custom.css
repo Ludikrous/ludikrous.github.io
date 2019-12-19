@@ -105,3 +105,15 @@
     background-color: #3CD500;
     color: black;
 }
+
+/* card button */
+.card-footer-custom {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.card-footer-custom:hover {
+    text-decoration: none;
+    background-color: #aba7b67a;
+}
