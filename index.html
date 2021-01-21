@@ -55,6 +55,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/oldcustom.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <script src="./js/bootstrap.js"></script>
@@ -70,93 +71,171 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark p-2 mb-4" style="background-color: #313131;">
-        <div class="container container-custom">
-            <a class="navbar-brand pl-2" href="./index.html">Dhanvee Ivaturi</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- MAIN CONTENT -->
+    <div class="container my-3 my-md-5">
+        <div class="row mt-md-5">
 
-            <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-2" style="line-height: 30px;">
-                        <a class="nav-link" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mx-2" style="line-height: 30px;">
-                        <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/1JhzOvhRwdK_zQPWYnyginKJS6xWRogvX">
-                            Resume
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a target="_blank" href="https://www.github.com/honDhan">
-                            <i class="fab fa-github py-3 nav-link fa-lg"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a target="_blank" href="https://www.linkedin.com/in/dhanvee">
-                            <i class="fab fa-linkedin py-3 nav-link fa-lg"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a href="mailto:dhanvee@umd.edu">
-                            <i class="far fa-envelope py-3 nav-link fa-lg"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+            <!-- LEFT SECTION -->
+            <div class="col-lg-4 px-xl-5 mb-4">
+                <div class="card">
+                    <div class="embed-responsive">
+                        <img src="./assets/DhanveeFace.jpg" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted m-0">Hey there! I'm</p>
+                        <h1 class="card-title">Dhanvee Ivaturi</h1>
+                        <p class="text-muted">a computer science undergrad @ UMD, College Park.</p>
+                    </div>
 
-    <div class="container-fluid">
-        <div class="row pt-md-4">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-                <div class="card mb-4 mx-auto">
-                    <div class="row no-gutters">
-                        <div class="col-md-4" style="background-color: #d4d1d9; border-bottom-left-radius: 0.75rem; border-top-left-radius: 0.75rem;">
-                            <div class="embed-responsive">
-                                <img src="./assets/DhanveeFace.jpg" class="card-img rounded-0" style="border-top-left-radius: 0.75rem !important;">
-                            </div>
-                            <a style="text-decoration: none;" target="_blank" href="https://drive.google.com/file/d/1JhzOvhRwdK_zQPWYnyginKJS6xWRogvX">
-                                <div class="d-flex card-footer px-4 card-footer-custom">Resume <i class="far ml-auto fa-envelope py-3 nav-link fa-lg "></i></div>
-                            </a>
-                            <a style="text-decoration: none;" target="_blank" href="https://www.github.com/Ludikrous">
-                                <div class="d-flex card-footer px-4 card-footer-custom">GitHub <i class="fab ml-auto fa-github py-3 nav-link fa-lg"></i></div>
-                            </a>
-                            <a style="text-decoration: none;" target="_blank" href="https://www.linkedin.com/in/dhanvee">
-                                <div class="d-flex card-footer px-4 card-footer-custom">LinkedIn <i class="fab ml-auto fa-linkedin py-3 nav-link fa-lg "></i></div>
-                            </a>
-                            <a style="text-decoration: none;" href="mailto:dhanvee@umd.edu">
-                                <div class="d-flex card-footer px-4 card-footer-custom" style="border-bottom-left-radius: 0.75rem">Email <i class="far ml-auto fa-envelope py-3 nav-link fa-lg"></i></div>
-                            </a>
-                        </div>
-                        <div class="col-md-8 pl-lg-3">
-                            <div class="card-body">
-                                <h3 class="mt-5 text-secondary" style="font-weight: 100 !important;"> Hello! I'm</h3>
-                                <h1 style="color:black;"><b>Dhanvee Ivaturi,</b></h1>
-                                <p class="card-text mb-4 text-secondary" style="font-size: 1.25rem; font-weight: 100 !important;">a 3rd year CS major at <a style="color: #E03A3E" href="https://www.cs.umd.edu">UMD</a>.</p>
-
-                                <hr class="my-5">
-
-                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    I'm working on my Bachelor's in Computer Science at UMD. Previously, I interned at Symantec and VMware. This spring, I'll be working on <a href="https://github.com/NVIDIA/aistore">AIStore</a> at NVIDIA.
-                                </p>
-                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    I've been experimenting with <b style="color: black; font-weight:800">machine learning, data
-                                analytics, </b>and <b style="font-weight:800">backend web development</b>. Recently, I've started learning about <b style="font-weight:800">distributed systems architecture</b> as well.
-                                </p>
-                                <p class="card-text" style="color:#222222; font-size: 1rem; text-align: left; text-indent: 2em; font-weight: 100 !important">
-                                    At the University of Maryland, I help organize <a target="_blank" href="https://bit.camp" style="color: #FF6F3F; font-weight:800">Bitcamp</a>, the largest spring hackathon on the east coast. I'm also a part of <a target="_blank" href="https://startupshell.org/"
-                                        style="color: #D74034; font-weight:800">Startup Shell</a>, where I'm working on exciting new projects.
-                                    I'm always looking for new opportunities, so feel free to get in touch with me!
-                                </p>
-
-                            </div>
-                        </div>
+                    <div class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action" target="_blank" href="https://drive.google.com/file/d/1JhzOvhRwdK_zQPWYnyginKJS6xWRogvX">Resume</a>
+                        <a class="list-group-item list-group-item-action" target="_blank" href="https://www.github.com/honDhan">Github</a>
+                        <a class="list-group-item list-group-item-action" target="_blank" href="https://www.linkedin.com/in/dhanvee">LinkedIn</a>
+                        <a class="list-group-item list-group-item-action" target="_blank" href="mailto:dhanvee@umd.edu">Email</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3"></div>
+
+            <!-- RIGHT SECTION -->
+            <div class="col-lg-8">
+
+                <!-- ABOUT ME -->
+                <h2>About me</h2><hr>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-text">
+                            I'm a Computer Science bachelor's student at the University of Maryland, College Park.
+                            My main interests are distributed systems, machine learning (specifically generative models), and software architecture design!
+                        </p>
+                        <p class="card-text">
+                            Currently, I'm working on <a href="https://github.com/NVIDIA/aistore">AIStore</a> at NVIDIA. Previously, I've interned at VMWare and Symantec.
+                            I also enjoy building out my own projects, some of which you can see on my github page.
+                        </p>
+                        <p class="card-text">
+                            At UMD, I help organize our two main hackathons- Technica and Bitcamp. 
+                            I also TA for introductory CS classes and help teach CMSC388J, to scratch my teaching itch.
+                            When I'm not teaching or working, I like to spend my time cycling or with friends and family.
+                        </p>
+                        <p class="card-text">
+
+                        </p>
+                        <!-- <p class="card-text">
+                            I'm working on my Bachelor's in Computer Science at UMD. Previously, I interned at Symantec and VMware. This spring, I'll be working on <a href="https://github.com/NVIDIA/aistore">AIStore</a> at NVIDIA.
+                        </p>
+                        <p class="card-text">
+                            I've been experimenting with <b style="color: black; font-weight:800">machine learning, data
+                        analytics, </b>and <b style="font-weight:800">backend web development</b>. Recently, I've started learning about <b style="font-weight:800">distributed systems architecture</b> as well.
+                        </p>
+                        <p class="card-text">
+                            At the University of Maryland, I help organize <a target="_blank" href="https://bit.camp" style="color: #FF6F3F; font-weight:800">Bitcamp</a>, the largest spring hackathon on the east coast. I'm also a part of <a target="_blank" href="https://startupshell.org/"
+                                style="color: #D74034; font-weight:800">Startup Shell</a>, where I'm working on exciting new projects.
+                            I'm always looking for new opportunities, so feel free to get in touch with me!
+                        </p> -->
+
+                        <!-- Include the library. -->
+                        <script src="js/github-calendar.min.js"></script>
+
+                        <!-- GITHUB CALENDAR -->
+                        <div class="calendar">
+                            Loading the data just for you.
+                        </div>
+
+                        <script>
+                            GitHubCalendar(".calendar", "honDhan", { responsive: true });
+                        </script>
+                    </div>
+                </div>
+
+                <!-- RESUME -->
+                <!-- <div class="card mb-4">
+                    <img src="assets/ISEF.jpg" class="card-img embed-responsive" alt="..." style="object-fit: cover !important; width: 100%; height: 5vh;">
+                    <div class="card-img-overlay">
+                        <h3 class="m-0">Resume</h3>
+                    </div>
+                </div> -->
+
+                <!-- WORK AND PROJECTS -->
+                <h2>Cool stuff I've worked on</h2><hr>
+                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="assets/technica.jpg" class="card-img-top project" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Technica</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Digitizing a hackathon</h6>
+                              <p class="card-text">
+                                  Holding one of the largest hackathons in a pandemic is tough! I helped build Technica's online platform for the 2020 season.
+                                  It supported over 3,000 hackers all over the world for a whole weekend.
+                              </p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-cyan" target="_blank" href="https://gotechnica.org/">Technica</a>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="assets/chansey.png" class="card-img-top project" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chansey</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Identifying infectious outbreaks</h6>
+                              <p class="card-text">
+                                Chansey aims to prevent large-scale outbreaks on university campuses. Users report
+                                their symptoms and give doctors their anonymized data so for analytics.
+                                Built at PennApps 2019!
+                              </p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-cyan" target="_blank " href="https://github.com/project-d3/Chansey">Github</a>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="assets/moody.jpg" class="card-img-top project" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Moody</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Tracking mental health</h6>
+                              <p class="card-text">
+                                Moody's goal is to help people with mental health issues.
+                                It uses a custom CNN to recognize the user's current mood and logs it.
+                                Users can track their mood over time and improve their mental health.
+                                Won HackRU Spring 2019!
+                              </p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-cyan" target="_blank " href="https://github.com/project-d3/Moody">Github</a>
+                                <a class="btn btn-cyan" target="_blank " href="https://devpost.com/software/moody-ulr9j7">Devpost</a>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="assets/ISEF.jpg" class="card-img-top project" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Intel ISEF 2018</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Improving breast cancer detection</h6>
+                              <p class="card-text">
+                                I explored machine learning techniques with my friend as my senior year science project.
+                                Namely, the performance of KNN, SVMs, and DNNs, with/without PCA.
+                                Our project won the Synopsys science fair and we went to Intel ISEF 2018.
+                              </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://drive.google.com/file/d/1y3Z6e-X_yG3mYOXzbdsXsNIlwnJMFIu5/view?usp=sharing" target="_blank" class="btn btn-cyan">Poster</a>
+                                <a href="https://drive.google.com/file/d/1lFUJJcWRk7VGvQiCxOvBp3zQnr13-dNr/view?usp=sharing" target="_blank" class="btn btn-cyan">Paper</a>
+                            </div>
+                        </div>    
+                    </div>
+
+
+                </div>
+                
+            </div>
         </div>
     </div>
 </body>
