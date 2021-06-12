@@ -1,0 +1,24 @@
+{
+  "name": "hondhan.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "html-minify": "cp -r src/* dist/ && html-minifier --input-dir src --output-dir dist --remove-comments --file-ext html --collapse-whitespace --minify-js true --minify-css true",
+    "git-check": "git status && git diff --quiet --cached && git diff --quiet",
+    "dev": "npm run build && live-server src --port=8080",
+    "build": "postcss tailwind.css -o src/style.css",
+    "build-prod": "npm run build && npm run html-minify",
+    "deploy": "npm run git-check && git push && git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "html-minifier": "^4.0.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
